@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible yaml file may be used to install only certain pieces of it, such as Filebeat.
 
- ![Path to ansible playbook file](Ansible/yaml.yml)
+ ![Path to ansible playbook file](Ansible)
 
 This document contains the following details:
 - Description of the Topologu
@@ -91,5 +91,3 @@ SSH into the control node and follow the steps below:
 - Copy the ansible file to /etc/ansible/files.
 - Update the ansible config file to include the proper hosts and make sure the playbook has the correct hosts in which you want to install on.
 - Run the playbook, and navigate to ELKIP:/5601/app/kibana to check that the installation worked as expected and the kibana site is up.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
